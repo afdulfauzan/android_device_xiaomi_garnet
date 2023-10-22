@@ -278,6 +278,7 @@ PRODUCT_PACKAGES += \
     init.hardware.rc \
     init.fingerprint.sh \
     init.garnet.rc \
+    init.garnet.perf.rc \
     init.qcom.rc \
     init.recovery.qcom.rc \
     init.target.rc \
