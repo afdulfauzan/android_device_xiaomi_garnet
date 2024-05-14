@@ -168,6 +168,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libcurl.vendor:64
 
+# Dex
+PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := verify
+
 # Display
 PRODUCT_PACKAGES += \
     android.hardware.graphics.mapper@4.0-impl-qti-display \
