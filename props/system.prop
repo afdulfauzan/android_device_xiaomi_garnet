@@ -12,7 +12,6 @@ ril.subscription.types=NV,RUIM
 ro.telephony.default_network=33,33
 telephony.lteOnCdmaDevice=1
 
-
 # Radio Powersaving
 persist.radio.add_power_save=1
 pm.sleep_mode=1
@@ -40,3 +39,13 @@ ro.surface_flinger.set_idle_timer_ms=80
 vendor.display.idle_time=0
 debug.sf.frame_rate_multiple_threshold=60
 
+# RIL Powersaving
+persist.radio.add_power_save=1
+pm.sleep_mode=1
+ro.ril.disable.power.collapse=0
+ro.ril.fast.dormancy.rule=1
+ro.ril.fast.dormancy.timeout=3
+ro.mot.eri.losalert.delay=100
+ro.vendor.use_data_netmgrd=true
+ro.vold.umsdirtyratio=20
+power.saving.mode=1
