@@ -40,4 +40,8 @@
 
     <!-- The radius of the enrollment progress bar, in dp -->
     <integer name="config_udfpsEnrollProgressBar" translatable="false">90</integer>
+
+    <!--DerpFest Maintainer-->
+    <string name="maintainer_name">moewob</string>
+    <string name="maintainer_telegram">https://t.me/moewob</string>
 </resources>
