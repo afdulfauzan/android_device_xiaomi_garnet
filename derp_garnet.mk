@@ -8,7 +8,7 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common Evolution X stuff.
+# Inherit some common DerpFest stuff.
 TARGET_DISABLE_EPPE := true
 $(call inherit-product, vendor/derp/config/common_full_phone.mk)
 
