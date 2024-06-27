@@ -21,7 +21,8 @@ LOCAL_OVERRIDES_PACKAGES := \
     Tycho \
     VoiceAccessPrebuilt \
     VZWAPNLib \
-    YouTube
+    YouTube \
+    FossifyGallery
 
 LOCAL_UNINSTALLABLE_MODULE := true
 LOCAL_CERTIFICATE := PRESIGNED
